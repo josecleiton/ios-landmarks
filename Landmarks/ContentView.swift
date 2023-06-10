@@ -15,13 +15,13 @@ struct ContentView: View {
                 .offset(y: -130)
                 .padding(.bottom, -130)
             VStack(alignment: .leading) {
-                Text("Turtle Rock").font(.title)
+                Text("Salvador").font(.title)
                 
                 HStack {
-                    Text("Joshua Tree National Park")
+                    Text("All Saints' Bay")
                         .font(.subheadline)
                     Spacer()
-                    Text("California")
+                    Text("Bahia")
                         .font(.subheadline)
                 }
                 .font(.subheadline)
@@ -29,8 +29,8 @@ struct ContentView: View {
                 
                 Divider()
                 
-                Text("About Turtle Rock").font(.title2)
-                Text("Descriptive text goes here.")
+                Text("About Salvador").font(.title2)
+                Text("Salvador is a Brazilian municipality and capital city of the state of Bahia")
             }
             .padding()
             Spacer()
